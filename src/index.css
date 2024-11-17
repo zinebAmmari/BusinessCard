@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-color: #121212; /* Couleur de fond de la page */
+  margin: 5px;
+}
+/* THE WHOLE CARD */
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  max-height: 900px;
+}
+/* CARD IMAGE */
+.img {
+  width: 300px;
+  height: 300px;
+}
+
+/* BODY TEXT  */
+h2,
+small {
+  color: white;
+}
+
+
+/* 
+BODY BUTTONS */
+button {
+  padding: 15px 5px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.linkedinButton {
+  background-color: #5093e2;
+  color: white;
+}
+.button-container {
+  display: flex;
+  margin: 10px 30px;
+}
+.emailButton,
+.linkedinButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.emailButton img,
+.linkedinButton img {
+  height: 16px;
+  width: 16px;
+}
+.linkedinButton img{
+  margin-bottom: 2px;
+}
+
+
+/* 
+TEXT BEFORE FOOTER */
+.text {
+  color: white;
+  font-size: 15px;
+  text-align: justify;
+  white-space: normal;
+  line-height: 1.1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about-text,
+.interests-text {
+  font-size: 25px;
+}
+
+
+/* FOOTER ICONES */
+span img {
+  width: 22px;
+  margin: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+}
